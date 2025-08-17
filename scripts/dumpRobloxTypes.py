@@ -118,6 +118,7 @@ EXTRA_MEMBERS = {
         "function __sub(self, other: Vector3): CFrame",
         "function __mul(self, other: CFrame): CFrame",
         "function __mul(self, other: Vector3): Vector3",
+        "fromEulerAngles: (rx: number, ry: number, rz: number, order: Enum.RotationOrder?) -> CFrame,
     ],
     "Random": [
         "function Shuffle(self, table: { any })",
